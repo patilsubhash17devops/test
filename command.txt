@@ -12,3 +12,12 @@ git init
 
 # open command.txt file
 code command.txt
+
+# adding file
+git add command.txt
+
+# commit changes
+git commit -m "write basic command for git"
+
+# git diff command.txt(show the difference from the last version)
+jaskjajdasdaksdjl
