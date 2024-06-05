@@ -20,4 +20,7 @@ git add command.txt
 git commit -m "write basic command for git"
 
 # git diff command.txt(show the difference from the last version)
-jaskjajdasdaksdjl
+git diff command.txt
+
+# roll out the changes which was done by mistake
+git checkout command.txt
