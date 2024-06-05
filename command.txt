@@ -1,0 +1,14 @@
+# make new dir
+mkdir test
+
+# create new file.txt
+touch testfile.txt
+touch testfile1.txt
+touch testfile2.txt
+touch command.txt
+
+# git initilization
+git init
+
+# open command.txt file
+code command.txt
