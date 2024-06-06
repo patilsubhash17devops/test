@@ -24,3 +24,22 @@ git diff command.txt
 
 # roll out the changes which was done by mistake
 git checkout command.txt
+
+push an existing repository from the command line
+#remote git
+git remote add origin https://github.com/patilsubhash17devops/test.git
+
+#main branch
+git branch -M main
+
+#push from local repo to remote git repo on main branch
+git push -u origin main
+
+
+# undo git add command
+git rm --cached -r .or (file name)
+
+# to ignore files we have to create .gitignore file and need to add files with same name which needs to be ignore
+touch .gitignore
+
+
