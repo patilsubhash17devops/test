@@ -50,3 +50,10 @@ git branch feature
 
 # switch to new branch (feature)
 git checkout feature
+
+# To merge both the branches switch to main branch and use below command
+ git merge feature -m "merge feature branch with main branch"
+
+
+# then push to the remote(origin)
+git push origin main -u
