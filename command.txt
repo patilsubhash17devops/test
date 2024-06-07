@@ -56,4 +56,6 @@ git checkout feature
 
 
 # then push to the remote(origin)
+#the main branch will push all the changes to remote(origin)
 git push origin main -u
+
